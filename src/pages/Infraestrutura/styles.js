@@ -12,9 +12,15 @@ export const TextBanner = styled.div`
   margin-top: 20%;
   margin-left: 10%;
 
-  h1 {
-    font-size: 350%;
-    width: 80%;
+ 
+
+  @media (max-width: 768px) {
+    font-size: 25px;
+    margin-top: 5%;
+
+  }
+  @media (max-width: 450px) {
+    font-size: 25px;
   }
 `;
 
@@ -38,4 +44,13 @@ export const OptionsInfra = styled.div`
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
+  @media (max-width: 768px) {
+    display: block;
+    margin-left: 10%;
+  }
+  @media (max-width: 450px) {
+    display: block;
+    margin-left: 5%;
+
+  }
 `;

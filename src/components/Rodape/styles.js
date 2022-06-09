@@ -5,6 +5,9 @@ export const Main = styled.div`
   height: 420px;
   background-color: #f1f1f1;
   display: flex;
+  @media (max-width: 768px) {
+    display: block;
+}
 `;
 
 export const Info = styled.div`

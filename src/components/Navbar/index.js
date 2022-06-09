@@ -1,11 +1,14 @@
 import React from "react";
 import Logotipo from "../../imagens/Logotipo.png";
 import profile from "../../imagens/profile.png";
-import { Main, LogotipoImage, Menu, Entrar } from "./styles.js";
+import { Main, LogotipoImage, Menu, Entrar, OptionEntrar } from "./styles.js";
 import OptionMenu from "../OptionMenu/index.js";
 import Button from "../Button/index.js";
 
+import { useHistory } from 'react-router-dom';
+
 export default function Navbar() {
+  const navigate = useHistory();
   return (
     <>
       <Main>
@@ -14,15 +17,15 @@ export default function Navbar() {
         </LogotipoImage>
 
         <Menu style={{ display: "flex" }}>
-          <OptionMenu title={"Home"} />
-          <OptionMenu title={"Sobre"} />
-          <OptionMenu title={"Infraestrutura"} />
-          <OptionMenu title={"Contato"} />
+          <OptionMenu click={() => { navigate.push('/') }} title={"Home"} />
+          <OptionMenu click={() => { navigate.push('/sobre') }} title={"Sobre"} />
+          <OptionMenu click={() => { navigate.push('/infraestrutura') }} title={"Infraestrutura"} />
+          <OptionMenu click={() => { navigate.push('/contato') }}title={"Contato"} />
         </Menu>
 
         <Entrar>
-          <img width="24" height="24" src={profile} />
-          <h1 style={{ fontSize: 14, color: "#00923F" }}>ENTRAR</h1>
+          
+          <OptionEntrar> <img width="24" height="24" src={profile} /> ENTRAR</OptionEntrar>
           <Button title={"COTAÇÃO ONLINE"} />
         </Entrar>
       </Main>

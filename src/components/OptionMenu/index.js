@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "./styles.js";
 
-export default function Button({ title }) {
+export default function Button({ title, click }) {
   return (
     <>
-      <Container>{title}</Container>
+      <Container onClick={() => {click()}}>{title}</Container>
     </>
   );
 }

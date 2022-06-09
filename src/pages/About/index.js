@@ -19,7 +19,7 @@ function Sobre() {
         </div>
         <TextBanner>
           <h1>
-            CONHEÇA A NOSSA HISTÓRIA{" "}
+            CONHEÇA A NOSSA HISTÓRIA
             <span style={{ color: "#00923F" }}>
               <b>& </b>
             </span>

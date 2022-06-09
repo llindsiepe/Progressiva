@@ -24,6 +24,7 @@ import {
   Qualities,
   Box,
   TextBox,
+  ImageTruck
 } from "./styles.js";
 
 function Home() {
@@ -38,9 +39,9 @@ function Home() {
           </h1>
           <h4>Manuseio específico para uma entrega única</h4>
         </TextBanner>
-        <div>
+        <ImageTruck>
           <img src={truck} />
-        </div>
+        </ImageTruck>
       </Banner>
       <BoxCards>
         <Card
@@ -79,7 +80,7 @@ function Home() {
         </ImageArea>
       </AboutUs>
       <Qualities>
-        <TextBox style={{ marginLeft: "5%" }}>
+        <TextBox>
           <img src={medal} />
           <h4>
             AMPLA{" "}

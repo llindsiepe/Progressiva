@@ -2,10 +2,20 @@ import styled from "styled-components";
 
 export const Main = styled.div`
   width: 100%;
-  height: 120px;
   background-color: #00923f;
   margin-top: 5%;
   display: flex;
+
+  @media (max-width: 768px) {
+    display: block;
+}
+  
+`;
+
+export const Container = styled.div`
+
+  display: flex;
+  
 `;
 
 export const ImageBannerInf = styled.div`
@@ -26,4 +36,8 @@ export const ButtonBannerInf = styled.div`
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
+  @media (max-width: 768px) {
+    margin-left: 50%;
+    transform: translate(-70%);
+}
 `;

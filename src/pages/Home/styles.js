@@ -12,8 +12,13 @@ export const TextBanner = styled.div`
   margin-top: 5%;
   width: 25%;
 
-  h1 {
-    font-size: 350%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (max-width: 450px) {
+    h1{
+      font-size: 28px;
+    }
   }
 `;
 
@@ -22,6 +27,12 @@ export const BoxCards = styled.div`
   justify-content: space-between;
   margin-left: 10%;
   margin-right: 10%;
+  @media (max-width: 768px) {
+    display: block;
+}
+@media (max-width: 450px) {
+  margin-left: 5%;
+}
 `;
 
 export const AboutUs = styled.div`
@@ -37,21 +48,37 @@ export const TextAboutUs = styled.div``;
 
 export const TextArea = styled.div`
   width: 80%;
-  text-align: justify;
   margin-bottom: 10%;
+  @media (max-width: 450px) {
+    h1{
+      font-size: 28px;
+    }
+  }
 `;
 
 export const TextCertificate = styled.div``;
 
-export const ImageArea = styled.div``;
+export const ImageArea = styled.div`
+@media (max-width: 768px) {
+  display: none;
+}`;
 
 export const Qualities = styled.div`
   width: 100%;
-  height: 320px;
   background-color: #00923f;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 768px) {
+    display: block;
+    min-height: 0px;
+    padding: 15px;
+}
+  
 `;
+
+export const MapImage = styled.div`
+
+`
 
 export const Box = styled.div`
   margin-left: 10%;
@@ -66,3 +93,9 @@ export const TextBox = styled.div`
   width: 400px;
   color: white;
 `;
+
+export const ImageTruck = styled.div`
+@media (max-width: 768px) {
+  display: none;
+}
+`
