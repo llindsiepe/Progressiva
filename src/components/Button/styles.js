@@ -6,5 +6,5 @@ export const Option = styled.button`
   border-radius: 5px;
   background-color: #00923f;
   color: white;
-  border: none;
+  border: 1px solid white;
 `;

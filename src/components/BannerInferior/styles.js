@@ -8,21 +8,17 @@ export const Main = styled.div`
 
   @media (max-width: 768px) {
     display: block;
-}
-  
+  }
 `;
 
 export const Container = styled.div`
-
   display: flex;
-  
 `;
 
 export const ImageBannerInf = styled.div`
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 10%;
-  margin-right: 2%;
+  margin-left: 25%;
 `;
 
 export const TextBannerInf = styled.div`
@@ -39,5 +35,5 @@ export const ButtonBannerInf = styled.div`
   @media (max-width: 768px) {
     margin-left: 50%;
     transform: translate(-70%);
-}
+  }
 `;

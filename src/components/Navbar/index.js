@@ -5,7 +5,7 @@ import { Main, LogotipoImage, Menu, Entrar, OptionEntrar } from "./styles.js";
 import OptionMenu from "../OptionMenu/index.js";
 import Button from "../Button/index.js";
 
-import { useHistory } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 
 export default function Navbar() {
   const navigate = useHistory();
@@ -17,16 +17,42 @@ export default function Navbar() {
         </LogotipoImage>
 
         <Menu style={{ display: "flex" }}>
-          <OptionMenu click={() => { navigate.push('/') }} title={"Home"} />
-          <OptionMenu click={() => { navigate.push('/sobre') }} title={"Sobre"} />
-          <OptionMenu click={() => { navigate.push('/infraestrutura') }} title={"Infraestrutura"} />
-          <OptionMenu click={() => { navigate.push('/contato') }}title={"Contato"} />
+          <OptionMenu
+            click={() => {
+              navigate.push("/");
+            }}
+            title={"Home"}
+          />
+          <OptionMenu
+            click={() => {
+              navigate.push("/sobre");
+            }}
+            title={"Sobre"}
+          />
+          <OptionMenu
+            click={() => {
+              navigate.push("/infraestrutura");
+            }}
+            title={"Infraestrutura"}
+          />
+          <OptionMenu
+            click={() => {
+              navigate.push("/contato");
+            }}
+            title={"Contato"}
+          />
         </Menu>
 
         <Entrar>
-          
-          <OptionEntrar> <img width="24" height="24" src={profile} /> ENTRAR</OptionEntrar>
-          <Button title={"COTAÇÃO ONLINE"} />
+          <a href="https://react.school" target="_blank">
+            <OptionEntrar>
+              {" "}
+              <img width="24" height="24" src={profile} /> ENTRAR
+            </OptionEntrar>
+          </a>
+          <a href="https://react.school" target="_blank">
+            <Button title={"COTAÇÃO ONLINE"} />
+          </a>
         </Entrar>
       </Main>
     </>

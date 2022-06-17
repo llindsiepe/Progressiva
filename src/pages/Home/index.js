@@ -24,7 +24,7 @@ import {
   Qualities,
   Box,
   TextBox,
-  ImageTruck
+  ImageTruck,
 } from "./styles.js";
 
 function Home() {
@@ -34,7 +34,8 @@ function Home() {
       <Banner>
         <TextBanner>
           <h1>
-            COMPROMISSO, ESPECIALIZAÇÃO{" "}
+            COMPROMISSO, ESPECIALIZAÇÃO
+            <br />
             <span style={{ color: "#00923F" }}>&</span> <b>SEGURANÇA.</b>
           </h1>
           <h4>Manuseio específico para uma entrega única</h4>
@@ -45,16 +46,19 @@ function Home() {
       </Banner>
       <BoxCards>
         <Card
-          text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in
-          et, lectus sit lorem id integer."
+          text="Somos especialistas em transporte de equipamentos sensíveis, documentos, materiais promocionais, produtos
+médicos, odontológicos, telefonia, eventos e feiras na área médica. Realizamos distribuição a nível nacional nos modais: Aéreo e
+Rodoviário."
         />
         <Card
-          text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in
-          et, lectus sit lorem id integer."
+          text="Oferecemos serviços
+diferenciados de manuseio, com caminhões equipados com plataforma elevatória e equipes de
+funcionários treinados, resultando em agilidade, segurança e pontualidade para o seu negocio."
         />
         <Card
-          text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in
-          et, lectus sit lorem id integer."
+          text="Garantimos espaço necessário para sua carga voar
+com rapidez e segurança para as principais cidades do país, objetivando sempre a qualidade total no
+transporte."
         />
       </BoxCards>
       <BannerInferior />
@@ -88,8 +92,11 @@ function Home() {
               <b>EXPERIÊNCIA</b>
             </span>
           </h4>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum
-          feugiat scelerisque elit varius aliquet.
+          <h5>
+            A Progressiva Transportes Urgentes esta no mercado desde o ano 2000,
+            com trabalho sério e competente, tendo anuência de clientes
+            expressivos no mercado.
+          </h5>
         </TextBox>
         <TextBox>
           <img src={shield} />
@@ -99,8 +106,10 @@ function Home() {
               <b>SEGURANÇA</b>
             </span>
           </h4>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum
-          feugiat scelerisque elit varius aliquet.{" "}
+          <h5>
+            Temos parceria com os maiores e melhores agentes de cargas do
+            Brasil, autorizados pelo ANAC, garantindo total segurança.
+          </h5>
         </TextBox>
         <TextBox style={{ marginRight: "5%" }}>
           <img src={box} />
@@ -110,8 +119,8 @@ function Home() {
               <b>BRASIL</b>
             </span>
           </h4>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum
-          feugiat scelerisque elit varius aliquet.{" "}
+          Realizamos transportes Rodoviário e Aéreo para atender cada vez melhor
+          você e suas prioridades.
         </TextBox>
       </Qualities>
       <Rodape />

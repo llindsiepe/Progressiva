@@ -12,12 +12,9 @@ export const TextBanner = styled.div`
   margin-top: 20%;
   margin-left: 10%;
 
- 
-
   @media (max-width: 768px) {
     font-size: 25px;
     margin-top: 5%;
-
   }
   @media (max-width: 450px) {
     font-size: 25px;
@@ -51,6 +48,31 @@ export const OptionsInfra = styled.div`
   @media (max-width: 450px) {
     display: block;
     margin-left: 5%;
+  }
+`;
 
+export const TitleTypes = styled.h3`
+  margin-left: 10%;
+  margin-bottom: 4%;
+`;
+
+export const ContainerTypes = styled.div`
+  display: flex;
+
+  h3 {
+    margin-bottom: 5%;
+    margin-left: 10%;
+  }
+`;
+
+export const Types = styled.div`
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-left: 10%;
+
+  h4 {
+    width: 50%;
   }
 `;

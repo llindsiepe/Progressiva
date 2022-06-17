@@ -18,7 +18,7 @@ export default function Card() {
       <Main>
         <Info>
           <ImageInfo>
-            <img src={Logotipo} />
+            <img src={Logotipo} width="200px" />
           </ImageInfo>
           <TextInfo>
             <h6>
@@ -41,8 +41,12 @@ export default function Card() {
             <b>SIGA-NOS</b> NAS REDES
           </h4>
           <ImageRedes>
-            <img src={WhatsApp} />
-            <img src={Facebook} />
+            <a href="https://react.school" target="_blank">
+              <img src={WhatsApp} />
+            </a>
+            <a href="https://react.school" target="_blank">
+              <img src={Facebook} />
+            </a>
           </ImageRedes>
         </Redes>
       </Main>

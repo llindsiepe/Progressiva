@@ -4,7 +4,7 @@ import {
   ImageBannerInf,
   TextBannerInf,
   ButtonBannerInf,
-  Container
+  Container,
 } from "./styles.js";
 
 import Button from "../Button/index.js";
@@ -16,14 +16,15 @@ export default function BannerInferior() {
     <>
       <Main>
         <Container>
-
-        <ImageBannerInf>
-          <img src={timer} />
-        </ImageBannerInf>
-        <TextBannerInf>
-          <h3>FAÇA SUA COTAÇÃO CONOSCO</h3>
-          <h5>SIMPLES, FÁCIL & SEGURO.</h5>
-        </TextBannerInf>
+          <ImageBannerInf>
+            <img src={timer} />
+          </ImageBannerInf>
+          <TextBannerInf>
+            <h3>FAÇA SUA COTAÇÃO CONOSCO</h3>
+            <h5>
+              SIMPLES, FÁCIL<b> & SEGURO.</b>
+            </h5>
+          </TextBannerInf>
         </Container>
         <ButtonBannerInf>
           <Button title={"COTAÇÃO ONLINE"} />

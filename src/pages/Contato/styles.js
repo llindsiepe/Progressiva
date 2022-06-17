@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Contact = styled.div`
   display: flex;
   justify-content: space-between;
-  input{
-    border:none;
+  input {
+    border: none;
     border-bottom: solid 1px #cdcdcd;
     color: #000;
     cursor: pointer;
@@ -16,16 +16,15 @@ export const Contact = styled.div`
     outline: none;
     transition: 0.15s;
     margin-bottom: 15px;
-
   }
 
-  textarea{
+  textarea {
     resize: vertical;
     width: 100%;
     outline: none;
     border: none;
-    
-    border:none;
+
+    border: none;
     border-bottom: solid 1px #cdcdcd;
     color: #000;
     cursor: pointer;
@@ -40,26 +39,25 @@ export const Contact = styled.div`
   }
 
   @media (max-width: 768px) {
-    input{
+    input {
       width: 80%;
       margin-left: 10%;
     }
-    textarea{
+    textarea {
       width: 80%;
       margin-left: 10%;
     }
   }
   @media (max-width: 450px) {
-    input{
+    input {
       width: 80%;
       margin-left: 10%;
     }
-    textarea{
+    textarea {
       width: 80%;
       margin-left: 10%;
     }
   }
-  
 `;
 
 export const ImageContact = styled.div`
@@ -86,5 +84,4 @@ export const TextContact = styled.div`
     margin-left: 10%;
     margin-bottom: 25%;
   }
-  
 `;

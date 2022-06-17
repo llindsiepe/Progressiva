@@ -8,7 +8,8 @@ export const Cards = styled.div`
 `;
 
 export const TextCard = styled.h5`
-  margin-top: 25%;
+  margin-top: 20%;
   margin-left: 5%;
   margin-right: 5%;
+  text-align: justify;
 `;
