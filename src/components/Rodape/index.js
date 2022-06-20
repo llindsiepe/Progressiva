@@ -11,6 +11,11 @@ import {
 import Logotipo from "../../imagens/Logotipo.png";
 import WhatsApp from "../../imagens/WhatsApp.png";
 import Facebook from "../../imagens/Facebook.png";
+import Location from "../../imagens/location.png";
+
+import GoogleMapReact from 'google-map-react';
+
+const AnyReactComponent = ({ text }) => <img src={Location} />;
 
 export default function Card() {
   return (
@@ -49,6 +54,23 @@ export default function Card() {
             </a>
           </ImageRedes>
         </Redes>
+        <div style={{ width: 500, height: 300, margin: 50, marginTop: 80 }}>
+
+        <GoogleMapReact
+          bootstrapURLKeys={{ key: 'AIzaSyB0wspSx_AgabhNTixEMDaAwEYWe50NS1s'}}
+          defaultCenter={{
+            lat: -23.44,
+            lng: -46.51
+          }}
+          defaultZoom={11}
+          >
+          <AnyReactComponent
+            lat={-23.4433437}
+            lng={-46.5120132}
+            text=""
+            />
+        </GoogleMapReact>
+            </div>
       </Main>
     </>
   );

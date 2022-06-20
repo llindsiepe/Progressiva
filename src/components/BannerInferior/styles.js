@@ -5,6 +5,7 @@ export const Main = styled.div`
   background-color: #00923f;
   margin-top: 5%;
   display: flex;
+  padding: 15px;
 
   @media (max-width: 768px) {
     display: block;

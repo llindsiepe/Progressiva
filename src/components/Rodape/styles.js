@@ -30,6 +30,7 @@ export const Redes = styled.div`
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: 180px;
 `;
 
 export const ImageRedes = styled.div`
