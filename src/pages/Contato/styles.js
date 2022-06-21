@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Contact = styled.div`
   display: flex;
   justify-content: space-between;
+
   input {
     border: none;
     border-bottom: solid 1px #cdcdcd;
@@ -58,7 +59,19 @@ export const Contact = styled.div`
       margin-left: 10%;
     }
   }
+  form{
+    button{
+      width: 80%;
+      padding: 10px;
+      border: none;
+      background: #00923F;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  }
 `;
+
 
 export const ImageContact = styled.div`
   margin-left: 10%;
@@ -75,8 +88,7 @@ export const ImageContact = styled.div`
 `;
 
 export const TextContact = styled.div`
-  margin-top: 10%;
-  margin-right: 10%;
+  margin-top: 25%;
   @media (max-width: 768px) {
     margin-left: 10%;
   }

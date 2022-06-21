@@ -55,8 +55,9 @@ function Sobre() {
             <input type="text" name="user_name" placeholder="Nome" />
 
             <input type="email" name="user_email" placeholder="Email" />
+            <input type="text" name="number" placeholder="Número" />
 
-            <textarea name="message" placeholder="Menssagem" />
+            <textarea name="message" placeholder="Menssagem" /><br />
             <button type="submit">Enviar</button>
           </form>
         </div>
