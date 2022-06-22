@@ -16,23 +16,50 @@ export const Info = styled.div`
 `;
 
 export const ImageInfo = styled.div`
-  margin-left: 10%;
+  margin-left: 20%;
 `;
 
 export const TextInfo = styled.div`
   width: 30%;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-top: 6%;
   text-align: justify;
+  @media (max-width: 768px) {
+    margin-left: 25%;
+}
 `;
 
 export const Redes = styled.div`
   text-align: center;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 15%;
   margin-right: 180px;
+  @media (max-width: 768px) {
+    h4{
+      margin-left: 40%;
+      width: 100%;
+      margin-top: 15%;
+    }
+}
+  
 `;
 
 export const ImageRedes = styled.div`
   margin-top: 20px;
+  
+
+  @media (max-width: 768px) {
+    margin-left: 40%;
+  width: 100%;
+}
+`;
+
+export const Map = styled.div`
+  width: 414px;
+  height: 310px;
+  margin-right: 50px;
+  margin-top: 50px;
+  @media (max-width: 768px) {
+    marginTop: -22px;
+  }
 `;

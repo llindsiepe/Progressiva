@@ -20,6 +20,13 @@ export const ImageBannerInf = styled.div`
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 25%;
+  @media (max-width: 768px) {
+    margin-left: 3%;
+    text-align: center;
+    img{
+      display: none;
+    }
+  }
 `;
 
 export const TextBannerInf = styled.div`
@@ -34,7 +41,7 @@ export const ButtonBannerInf = styled.div`
   margin-top: auto;
   margin-bottom: auto;
   @media (max-width: 768px) {
-    margin-left: 50%;
-    transform: translate(-70%);
+    margin-left: 3%;
+
   }
 `;
