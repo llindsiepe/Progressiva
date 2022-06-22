@@ -7,4 +7,9 @@ export const Option = styled.button`
   background-color: #00923f;
   color: white;
   border: 1px solid white;
+
+  @media (max-width: 768px) {
+    height: 30px;
+    width: 120px;
+  }
 `;

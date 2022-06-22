@@ -28,11 +28,11 @@ export default function Card() {
           <TextInfo>
             <h6>
               <b>MATRIZ: </b>
-              R. Ibirajuba, 138 - Jardim Monte Carmelo, Guarulhos - SP,
+              R. Ibirajuba, 164 - Jardim Monte Carmelo, Guarulhos - SP,
               07194-000
             </h6>
             <h6>
-              <b>TELEFONE:</b> (11) 7940-8307
+              <b>TELEFONE:</b> (11) 2405-3540
             </h6>
             <h6>
               <b>E-MAIL:</b> renato@progressivatransportes.com.br,
