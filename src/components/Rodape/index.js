@@ -46,7 +46,10 @@ export default function Card() {
             <b>SIGA-NOS</b> NAS REDES
           </h4>
           <ImageRedes>
-            <a href="https://react.school" target="_blank">
+            <a
+              href="https://api.whatsapp.com/send?phone=5511940305742"
+              target="_blank"
+            >
               <img src={WhatsApp} />
             </a>
             <a

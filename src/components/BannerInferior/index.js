@@ -20,14 +20,19 @@ export default function BannerInferior() {
             <img src={timer} />
           </ImageBannerInf>
           <TextBannerInf>
-            <h3 style={{ width: '400px' }}>FAÇA SUA COTAÇÃO CONOSCO</h3>
+            <h3 style={{ width: "400px" }}>FAÇA SUA COTAÇÃO CONOSCO</h3>
             <h5>
               SIMPLES, FÁCIL<b> & SEGURO.</b>
             </h5>
           </TextBannerInf>
         </Container>
         <ButtonBannerInf>
-          <Button title={"COTAÇÃO ONLINE"} />
+          <a
+            href="https://api.whatsapp.com/send?phone=5511940305742"
+            target="_blank"
+          >
+            <Button title={"COTAÇÃO ONLINE"} />
+          </a>
         </ButtonBannerInf>
       </Main>
     </>

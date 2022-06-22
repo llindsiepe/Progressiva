@@ -58,7 +58,10 @@ export default function Navbar() {
               <img width="24" height="24" src={profile} /> ENTRAR
             </OptionEntrar>
           </a>
-          <a href="https://react.school" target="_blank">
+          <a
+            href="https://api.whatsapp.com/send?phone=5511940305742"
+            target="_blank"
+          >
             <Button title={"COTAÇÃO ONLINE"} />
           </a>
         </Entrar>

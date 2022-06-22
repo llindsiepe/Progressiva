@@ -59,19 +59,18 @@ export const Contact = styled.div`
       margin-left: 10%;
     }
   }
-  form{
-    button{
+  form {
+    button {
       width: 80%;
       padding: 10px;
       border: none;
-      background: #00923F;
+      background: #00923f;
       color: #fff;
       font-weight: bold;
       border-radius: 5px;
     }
   }
 `;
-
 
 export const ImageContact = styled.div`
   margin-left: 10%;
@@ -96,4 +95,10 @@ export const TextContact = styled.div`
     margin-left: 10%;
     margin-bottom: 25%;
   }
+`;
+
+export const Icons = styled.div`
+  text-align: center;
+  margin-top: 8%;
+  margin-right: 20%;
 `;
