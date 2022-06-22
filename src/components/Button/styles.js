@@ -12,4 +12,8 @@ export const Option = styled.button`
     height: 30px;
     width: 120px;
   }
+  @media (max-width: 451px) {
+    height: 30px;
+    width: 50px;
+  }
 `;

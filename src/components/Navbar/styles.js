@@ -39,8 +39,10 @@ export const Menu = styled.div`
     align-items: center;
     gap: 1rem;
   }
-  @media (max-width: 450px) {
-    font-size: 1.5rem;
+  @media (max-width: 451px) {
+    font-size: 0.8rem;
+    margin-left: 0.5%;
+    gap: 0.5rem;
   }
 `;
 

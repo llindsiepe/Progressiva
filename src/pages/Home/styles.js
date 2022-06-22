@@ -15,9 +15,12 @@ export const TextBanner = styled.div`
   @media (max-width: 768px) {
     width: 100%;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 451px) {
     h1 {
       font-size: 28px;
+    }
+    h4 {
+      font-size: 10px;
     }
   }
 `;
