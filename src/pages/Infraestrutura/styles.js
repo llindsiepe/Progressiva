@@ -5,6 +5,16 @@ export const Banner = styled.div`
   justify-content: space-between;
   margin-top: 5%;
   margin-bottom: 5%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  @media (max-width: 450px) {
+    img{
+      display: none;
+    }
+    margin-left: -2%;
+  }
 `;
 
 export const TextBanner = styled.div`
@@ -18,6 +28,7 @@ export const TextBanner = styled.div`
   }
   @media (max-width: 450px) {
     font-size: 25px;
+    
   }
 `;
 
@@ -33,6 +44,10 @@ export const TextAbout = styled.div`
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
+  @media (max-width: 450px) {
+    margin-left: 2%;
+    
+  }
 `;
 
 export const OptionsInfra = styled.div`
@@ -58,10 +73,12 @@ export const TitleTypes = styled.h3`
 
 export const ContainerTypes = styled.div`
   display: flex;
-
-  h3 {
-    margin-bottom: 5%;
-    margin-left: 10%;
+  justify-content: space-between;
+  img{
+    width: 70px;
+  }
+  @media (max-width: 450px) {
+    display: block;    
   }
 `;
 
@@ -71,8 +88,4 @@ export const Types = styled.div`
   align-items: center;
   margin-bottom: 2%;
   margin-left: 10%;
-
-  h4 {
-    width: 50%;
-  }
 `;

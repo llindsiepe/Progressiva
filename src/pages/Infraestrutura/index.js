@@ -72,7 +72,8 @@ function Sobre() {
         Realizamos variados tipos de <b>transporte hospitalar:</b>
       </TitleTypes>
       <ContainerTypes>
-        <div>
+       <div>
+
           <Types>
             <img src={MatBio} width="15%" height="15%" />
             <h4>Material Biológico</h4>
@@ -81,9 +82,11 @@ function Sobre() {
             <img src={Medicamentos} width="15%" height="15%" />
             <h4>Medicamentos</h4>
           </Types>
-        </div>
+       </div>
+        
 
         <div>
+
           <Types>
             <img src={Sangue} width="15%" height="15%" />
             <h4>Bolsas de Sangue e Hemocomponentes</h4>
@@ -92,9 +95,10 @@ function Sobre() {
             <img src={InstrCirurgicos} width="15%" height="15%" />
             <h4>Instrumentos Cirúrgicos</h4>
           </Types>
+      
         </div>
-
         <div>
+
           <Types>
             <img src={Laudos} width="15%" height="15%" />
             <h4>Laudos médicos</h4>
@@ -104,6 +108,7 @@ function Sobre() {
             <h4>Carga de insumos de saúde</h4>
           </Types>
         </div>
+       
       </ContainerTypes>
 
       <BannerInferior />

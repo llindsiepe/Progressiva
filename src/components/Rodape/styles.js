@@ -13,6 +13,9 @@ export const Main = styled.div`
 export const Info = styled.div`
   margin-top: auto;
   margin-bottom: auto;
+  @media (max-width: 450px) {
+    padding-top: 25px;
+  }
 `;
 
 export const ImageInfo = styled.div`
@@ -50,7 +53,7 @@ export const ImageRedes = styled.div`
 
   @media (max-width: 768px) {
     margin-left: 40%;
-  width: 100%;
+    width: 100%;
 }
 `;
 
@@ -60,6 +63,6 @@ export const Map = styled.div`
   margin-right: 50px;
   margin-top: 50px;
   @media (max-width: 768px) {
-    marginTop: -22px;
+    marginTop: -50px;
   }
 `;

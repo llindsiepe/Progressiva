@@ -55,6 +55,7 @@ export const Entrar = styled.div`
   }
 
   @media (max-width: 450px) {
+    margin-left: 35%
   }
 `;
 
