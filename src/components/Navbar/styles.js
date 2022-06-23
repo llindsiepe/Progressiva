@@ -8,7 +8,7 @@ export const Main = styled.div`
   display: flex;
   justify-content: space-between;
   @media (max-width: 768px) {
-    display: block;
+    display: flex;
     padding: 15px;
   }
 `;
@@ -16,26 +16,35 @@ export const LogotipoImage = styled.div`
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 10%;
+
   @media (max-width: 768px) {
-    img{
+    margin-left: 5%;
+    margin-right: 5%;
+
+    img {
+      width: 50px;
+      height: 25px;
     }
   }
   @media (max-width: 450px) {
     margin-left: 50%;
-    transform: translate(-40%)
+    transform: translate(-40%);
   }
 `;
 export const Menu = styled.div`
   gap: 2rem;
   @media (max-width: 768px) {
-    margin-left: auto;
-    margin-top: 25px;
+    margin-left: -10%;
+    font-size: 0.8rem;
+    align-items: center;
+    gap: 1rem;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 451px) {
+    font-size: 0.8rem;
+    margin-left: 0.5%;
+    gap: 0.5rem;
   }
 `;
-
-
 
 export const Entrar = styled.div`
   text-align: center;
@@ -45,17 +54,19 @@ export const Entrar = styled.div`
   margin-bottom: auto;
   gap: 1rem;
   margin-right: 10%;
+
   @media (max-width: 768px) {
-    margin-left: 50%;
-    transform: translate(-45%);
-    margin-top: 25px;
+    font-size: 0.8rem;
+
     img {
-       display: none;
+      display: none;
     }
   }
 
   @media (max-width: 450px) {
     margin-left: 35%
+    margin-right: -10%;
+    margin-left: 16rem;
   }
 `;
 
