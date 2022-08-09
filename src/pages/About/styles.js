@@ -5,12 +5,12 @@ export const Banner = styled.div`
   margin-top: 5%;
   margin-bottom: 5%;
   @media (max-width: 768px) {
-    img{
+    img {
       display: none;
     }
   }
   @media (max-width: 450px) {
-    img{
+    img {
       display: none;
     }
   }
@@ -23,10 +23,12 @@ export const TextBanner = styled.div`
   @media (max-width: 768px) {
     font-size: 25px;
     margin-top: 5%;
-
   }
-  @media (max-width: 450px) {
-    font-size: 25px;
+  @media (max-width: 451px) {
+    width: 80%;
+    h1 {
+      font-size: 22px;
+    }
   }
 `;
 

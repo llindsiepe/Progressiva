@@ -49,7 +49,7 @@ export const Contact = styled.div`
       margin-left: 10%;
     }
   }
-  @media (max-width: 450px) {
+  @media (max-width: 451px) {
     input {
       width: 80%;
       margin-left: 10%;
@@ -68,6 +68,12 @@ export const Contact = styled.div`
       color: #fff;
       font-weight: bold;
       border-radius: 5px;
+
+      @media (max-width: 451px) {
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
     }
   }
 `;
@@ -81,7 +87,7 @@ export const ImageContact = styled.div`
     display: none;
     font-size: 25px;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 451px) {
     display: none;
   }
 `;
@@ -91,9 +97,13 @@ export const TextContact = styled.div`
   @media (max-width: 768px) {
     margin-left: 10%;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 451px) {
     margin-left: 10%;
-    margin-bottom: 25%;
+    margin-bottom: 10%;
+
+    h1 {
+      font-size: 25px;
+    }
   }
 `;
 
@@ -101,4 +111,10 @@ export const Icons = styled.div`
   text-align: center;
   margin-top: 8%;
   margin-right: 20%;
+
+  @media (max-width: 451px) {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+  }
 `;

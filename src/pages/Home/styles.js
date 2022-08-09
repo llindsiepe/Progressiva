@@ -15,9 +15,12 @@ export const TextBanner = styled.div`
   @media (max-width: 768px) {
     width: 100%;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 451px) {
     h1 {
       font-size: 28px;
+    }
+    h4 {
+      font-size: 10px;
     }
   }
 `;
@@ -49,14 +52,20 @@ export const TextAboutUs = styled.div``;
 export const TextArea = styled.div`
   width: 80%;
   margin-bottom: 10%;
-  @media (max-width: 450px) {
+  @media (max-width: 451px) {
     h1 {
       font-size: 28px;
     }
   }
 `;
 
-export const TextCertificate = styled.div``;
+export const TextCertificate = styled.div`
+  @media (max-width: 451px) {
+    h1 {
+      font-size: 28px;
+    }
+  }
+`;
 
 export const ImageArea = styled.div`
   @media (max-width: 768px) {
