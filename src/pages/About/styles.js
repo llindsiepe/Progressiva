@@ -4,12 +4,8 @@ export const Banner = styled.div`
   display: flex;
   margin-top: 5%;
   margin-bottom: 5%;
-  @media (max-width: 768px) {
-    img {
-      display: none;
-    }
-  }
-  @media (max-width: 450px) {
+
+  @media (max-width: 720px) {
     img {
       display: none;
     }
@@ -20,14 +16,11 @@ export const TextBanner = styled.div`
   margin-top: 20%;
   margin-left: 10%;
   width: 35%;
-  @media (max-width: 768px) {
-    font-size: 25px;
-    margin-top: 5%;
-  }
-  @media (max-width: 451px) {
-    width: 80%;
+
+  @media (max-width: 720px) {
     h1 {
-      font-size: 22px;
+      font-size: 2.5rem;
+      width: 400px;
     }
   }
 `;
@@ -52,12 +45,9 @@ export const Testimonial = styled.div`
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
-  @media (max-width: 768px) {
+
+  @media (max-width: 720px) {
     display: block;
-    margin-left: 10%;
-  }
-  @media (max-width: 450px) {
-    display: block;
-    margin-left: 5%;
+    margin-left: 12%;
   }
 `;

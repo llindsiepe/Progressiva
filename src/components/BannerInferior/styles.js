@@ -7,12 +7,10 @@ export const Main = styled.div`
   display: flex;
   padding: 15px;
 
-  @media (max-width: 768px) {
-    display: block;
-  }
-
-  @media (max-width: 768px) {
+  @media (max-width: 720px) {
     display: flex;
+    margin-top: 15%;
+    margin-bottom: 10%;
   }
 `;
 
@@ -24,9 +22,11 @@ export const ImageBannerInf = styled.div`
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 25%;
-  @media (max-width: 768px) {
+
+  @media (max-width: 720px) {
     margin-left: 3%;
     text-align: center;
+
     img {
       display: none;
     }
@@ -38,9 +38,17 @@ export const TextBannerInf = styled.div`
   margin-top: auto;
   margin-bottom: auto;
 
-  @media (max-width: 451px) {
+  h3 {
+    width: 400px;
+  }
+
+  @media (max-width: 720px) {
     h3 {
-      font-size: 2rem;
+      font-size: 1.5rem;
+      width: 300px;
+    }
+    h5 {
+      font-size: 1rem;
     }
   }
 `;
@@ -50,12 +58,10 @@ export const ButtonBannerInf = styled.div`
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
-  @media (max-width: 768px) {
-    margin-left: 3%;
-  }
 
-  @media (max-width: 451px) {
-    font-size: 0.8rem;
-    margin-left: -4%;
+  @media (max-width: 720px) {
+    margin-left: 3%;
+    font-size: 1rem;
+    font-weight: 700;
   }
 `;

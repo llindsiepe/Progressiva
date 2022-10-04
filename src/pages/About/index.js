@@ -46,9 +46,9 @@ function Sobre() {
 
       <Testimonial>
         <CardTestimonial
-          name="José Guimarães"
-          text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in
-          et, lectus sit lorem id integer."
+          name="Maxuell S."
+          text="Quero agradecer a Progressiva por todos esses anos de parceria e que continuemos por muitos anos. 
+Uma empresa séria que valoriza seus clientes e está sempre disposta a atender as necessidades da Spectrun. Obrigado"
         />
         <CardTestimonial
           name="José Guimarães"

@@ -12,7 +12,7 @@ export default function Card({ name, text, image }) {
           <img src={image} />
           <Type>
             <h2>{name}</h2>
-            <img src={Avaliação} width="80" height="10" />
+            <img src={Avaliação} />
           </Type>
           <TextCard>{text}</TextCard>
         </ImageCard>

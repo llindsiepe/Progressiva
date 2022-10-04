@@ -28,10 +28,10 @@ function Sobre() {
       )
       .then(
         (result) => {
-          alert("mensagem enviada com sucesso");
+          alert("Mensagem enviada com sucesso");
         },
         (error) => {
-          alert("falha ao mandar mensagem");
+          alert("Falha ao mandar mensagem");
         }
       );
   };
@@ -60,7 +60,7 @@ function Sobre() {
             <input type="email" name="user_email" placeholder="Email" />
             <input type="text" name="number" placeholder="Número" />
 
-            <textarea name="message" placeholder="Menssagem" />
+            <textarea name="message" placeholder="Mensagem" />
             <br />
             <br />
             <button type="submit">Enviar</button>

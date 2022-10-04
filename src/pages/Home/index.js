@@ -66,12 +66,14 @@ transporte."
         <TextAboutUs>
           <TextArea>
             <h1>ÁREA DE ATENDIMENTO</h1>
-            <h5>Conheça um pouco mais sobre nós.</h5>
-            Somos uma empresa familiar com objetivo de prestação serviços
-            transportes no seguimento medico com mão de obra especifica e
-            treinada para transportes equipamentos produtos sensíveis,
-            perecíveis de alto valor agregado, nos modais <b>Aéreo</b> e{" "}
-            <b>Rodoviário</b> em todo território nacional.
+            <h4>Conheça um pouco mais sobre nós.</h4>
+            <h5>
+              Somos uma empresa familiar com objetivo de prestação serviços
+              transportes no seguimento medico com mão de obra especifica e
+              treinada para transportes equipamentos produtos sensíveis,
+              perecíveis de alto valor agregado, nos modais <b>Aéreo</b> e{" "}
+              <b>Rodoviário</b> em todo território nacional.
+            </h5>
           </TextArea>
           <TextCertificate>
             <h1>SOMOS CERTIFICADOS</h1>
@@ -119,8 +121,10 @@ transporte."
               <b>BRASIL</b>
             </span>
           </h4>
-          Realizamos transportes Rodoviário e Aéreo para atender cada vez melhor
-          você e suas prioridades.
+          <h5>
+            Realizamos transportes Rodoviário e Aéreo para atender cada vez
+            melhor você e suas prioridades.
+          </h5>
         </TextBox>
       </Qualities>
       <Rodape />

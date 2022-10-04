@@ -6,7 +6,7 @@ import {
   TextInfo,
   Redes,
   ImageRedes,
-  Map
+  Map,
 } from "./styles.js";
 
 import Logotipo from "../../imagens/Logotipo.png";
@@ -28,7 +28,7 @@ export default function Card() {
           </ImageInfo>
           <TextInfo>
             <h6>
-              <b>MATRIZ: </b>
+              <b>MATRIZ:</b>
               R. Ibirajuba, 164 - Jardim Monte Carmelo, Guarulhos - SP,
               07194-000
             </h6>
@@ -42,6 +42,7 @@ export default function Card() {
             </h6>
           </TextInfo>
         </Info>
+
         <Redes>
           <h4>
             <b>SIGA-NOS</b> NAS REDES
@@ -61,6 +62,7 @@ export default function Card() {
             </a>
           </ImageRedes>
         </Redes>
+
         <Map>
           <GoogleMapReact
             bootstrapURLKeys={{
@@ -71,7 +73,7 @@ export default function Card() {
               lng: -46.51,
             }}
             defaultZoom={11}
-            >
+          >
             <AnyReactComponent lat={-23.4433437} lng={-46.5120132} text="" />
           </GoogleMapReact>
         </Map>

@@ -12,16 +12,9 @@ export const TextBanner = styled.div`
   margin-top: 5%;
   width: 25%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 720px) {
     width: 100%;
-  }
-  @media (max-width: 451px) {
-    h1 {
-      font-size: 28px;
-    }
-    h4 {
-      font-size: 10px;
-    }
+    margin-top: 15%;
   }
 `;
 
@@ -30,11 +23,9 @@ export const BoxCards = styled.div`
   justify-content: space-between;
   margin-left: 10%;
   margin-right: 10%;
-  @media (max-width: 768px) {
+
+  @media (max-width: 720px) {
     display: block;
-  }
-  @media (max-width: 450px) {
-    margin-left: 5%;
   }
 `;
 
@@ -52,23 +43,44 @@ export const TextAboutUs = styled.div``;
 export const TextArea = styled.div`
   width: 80%;
   margin-bottom: 10%;
-  @media (max-width: 451px) {
+
+  h4 {
+    margin-bottom: 10%;
+  }
+
+  h5 {
+    text-align: justify;
+  }
+
+  @media (max-width: 720px) {
     h1 {
-      font-size: 28px;
+      font-size: 2.5rem;
+    }
+    h4 {
+      font-size: 1.5rem;
+      margin-bottom: 15%;
+    }
+    h5 {
+      width: 380px;
     }
   }
 `;
 
 export const TextCertificate = styled.div`
-  @media (max-width: 451px) {
+  @media (max-width: 720px) {
+    margin-bottom: 20%;
+
     h1 {
-      font-size: 28px;
+      font-size: 2.5rem;
+    }
+    h5 {
+      margin-bottom: 10%;
     }
   }
 `;
 
 export const ImageArea = styled.div`
-  @media (max-width: 768px) {
+  @media (max-width: 720px) {
     display: none;
   }
 `;
@@ -78,10 +90,12 @@ export const Qualities = styled.div`
   background-color: #00923f;
   display: flex;
   justify-content: space-between;
-  @media (max-width: 768px) {
+
+  @media (max-width: 720px) {
     display: block;
-    min-height: 0px;
-    padding: 15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 8%;
   }
 `;
 
@@ -105,10 +119,22 @@ export const TextBox = styled.div`
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  @media (max-width: 720px) {
+    img {
+      width: 12%;
+      margin-bottom: 3%;
+    }
+
+    h5 {
+      font-size: 1.2rem;
+      margin-bottom: 10%;
+    }
+  }
 `;
 
 export const ImageTruck = styled.div`
-  @media (max-width: 768px) {
+  @media (max-width: 720px) {
     display: none;
   }
 `;

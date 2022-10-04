@@ -23,6 +23,7 @@ import {
   TitleTypes,
   ContainerTypes,
   Types,
+  ImageBanner,
 } from "./styles.js";
 
 function Sobre() {
@@ -40,9 +41,9 @@ function Sobre() {
             <b>MOBILIDADE.</b>
           </h1>
         </TextBanner>
-        <div>
+        <ImageBanner>
           <img src={TruckInfra} width="500" height="586" />
-        </div>
+        </ImageBanner>
       </Banner>
 
       <TextAbout>
@@ -59,7 +60,7 @@ function Sobre() {
         <CardInfraestrutura
           name="Transporte Aéreo"
           image={Aereo}
-          text="Visando atender  distâncias maioresou cargas urgentes e, ao mesmo tempo, garantir a segurança e a integridade da mercadoria é um desafio difícil para os demais modais. Já com o transporte de cargas aéreas, é garantido que suas entregas possam ser finalizadas em dias ou, até mesmo, em horas."
+          text="Visando atender  distâncias maiores ou cargas urgentes e, ao mesmo tempo, garantir a segurança e a integridade da mercadoria é um desafio difícil para os demais modais. Já com o transporte de cargas aéreas, é garantido que suas entregas possam ser finalizadas em dias ou, até mesmo, em horas."
         />
         <CardInfraestrutura
           name="Transporte Rodoviário"
@@ -72,8 +73,7 @@ function Sobre() {
         Realizamos variados tipos de <b>transporte hospitalar:</b>
       </TitleTypes>
       <ContainerTypes>
-       <div>
-
+        <div>
           <Types>
             <img src={MatBio} width="15%" height="15%" />
             <h4>Material Biológico</h4>
@@ -82,23 +82,19 @@ function Sobre() {
             <img src={Medicamentos} width="15%" height="15%" />
             <h4>Medicamentos</h4>
           </Types>
-       </div>
-        
+        </div>
 
         <div>
-
           <Types>
-            <img src={Sangue} width="15%" height="15%" />
+            <img src={Sangue} width="10%" height="10%" />
             <h4>Bolsas de Sangue e Hemocomponentes</h4>
           </Types>
           <Types>
-            <img src={InstrCirurgicos} width="15%" height="15%" />
+            <img src={InstrCirurgicos} width="10%" height="10%" />
             <h4>Instrumentos Cirúrgicos</h4>
           </Types>
-      
         </div>
         <div>
-
           <Types>
             <img src={Laudos} width="15%" height="15%" />
             <h4>Laudos médicos</h4>
@@ -108,7 +104,6 @@ function Sobre() {
             <h4>Carga de insumos de saúde</h4>
           </Types>
         </div>
-       
       </ContainerTypes>
 
       <BannerInferior />

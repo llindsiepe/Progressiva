@@ -19,4 +19,11 @@ export const ImageCard = styled.div`
   margin-right: 15%;
   margin-top: 15%;
   text-align: center;
+
+  @media (max-width: 720px) {
+    img {
+      width: 20%;
+      margin-top: 15%;
+    }
+  }
 `;

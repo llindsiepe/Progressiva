@@ -10,7 +10,7 @@ export const Banner = styled.div`
     width: 100%;
   }
   @media (max-width: 450px) {
-    img{
+    img {
       display: none;
     }
     margin-left: -2%;
@@ -22,13 +22,18 @@ export const TextBanner = styled.div`
   margin-top: 20%;
   margin-left: 10%;
 
-  @media (max-width: 768px) {
-    font-size: 25px;
-    margin-top: 5%;
+  @media (max-width: 720px) {
+    h1 {
+      font-size: 2.5rem;
+    }
   }
-  @media (max-width: 450px) {
-    font-size: 25px;
-    
+`;
+
+export const ImageBanner = styled.div`
+  @media (max-width: 720px) {
+    img {
+      display: none;
+    }
   }
 `;
 
@@ -43,10 +48,10 @@ export const TextAbout = styled.div`
   text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 10%;
-  @media (max-width: 450px) {
-    margin-left: 2%;
-    
+  margin-bottom: 5%;
+
+  @media (max-width: 720px) {
+    margin-bottom: 15%;
   }
 `;
 
@@ -56,13 +61,10 @@ export const OptionsInfra = styled.div`
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
-  @media (max-width: 768px) {
+
+  @media (max-width: 720px) {
     display: block;
     margin-left: 10%;
-  }
-  @media (max-width: 450px) {
-    display: block;
-    margin-left: 5%;
   }
 `;
 
@@ -74,11 +76,15 @@ export const TitleTypes = styled.h3`
 export const ContainerTypes = styled.div`
   display: flex;
   justify-content: space-between;
-  img{
+  margin-left: 8%;
+  margin-right: 8%;
+
+  img {
     width: 70px;
   }
-  @media (max-width: 450px) {
-    display: block;    
+  @media (max-width: 720px) {
+    display: block;
+    margin-top: 10%;
   }
 `;
 
@@ -86,6 +92,6 @@ export const Types = styled.div`
   display: flex;
   gap: 2rem;
   align-items: center;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   margin-left: 10%;
 `;

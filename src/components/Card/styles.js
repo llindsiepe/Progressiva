@@ -7,7 +7,8 @@ export const Cards = styled.div`
   border-radius: 9px;
   align-items: center;
 
-  @media (max-width: 451px) {
+  @media (max-width: 720px) {
+    height: 180px;
   }
 `;
 
@@ -17,7 +18,8 @@ export const TextCard = styled.h5`
   margin-right: 5%;
   text-align: justify;
 
-  @media (max-width: 451px) {
-    padding-top: 20%;
+  @media (max-width: 720px) {
+    justify-content: center;
+    padding-top: 15%;
   }
 `;

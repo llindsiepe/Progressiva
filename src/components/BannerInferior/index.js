@@ -20,7 +20,7 @@ export default function BannerInferior() {
             <img src={timer} />
           </ImageBannerInf>
           <TextBannerInf>
-            <h3 style={{ width: '371px' }}>FAÇA SUA COTAÇÃO CONOSCO</h3>
+            <h3>FAÇA SUA COTAÇÃO CONOSCO</h3>
             <h5>
               SIMPLES, FÁCIL<b> & SEGURO.</b>
             </h5>
