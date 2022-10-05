@@ -48,6 +48,46 @@ export const Testimonial = styled.div`
 
   @media (max-width: 720px) {
     display: block;
-    margin-left: 12%;
+    margin-left: 20%;
+  }
+`;
+
+export const OurGalery = styled.div`
+  h4 {
+    margin-left: 10%;
+    font-weight: 600;
+  }
+
+  @media (max-width: 720px) {
+    h4 {
+      margin-top: 15%;
+    }
+  }
+`;
+
+export const VideoPlay = styled.div`
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-bottom: 5%;
+
+  img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1.5rem;
+  }
+`;
+
+export const PhotoGalery = styled.div`
+  img {
+    width: 25%;
+  }
+
+  @media (max-width: 720px) {
+    display: block;
+
+    img {
+      width: 100%;
+    }
   }
 `;

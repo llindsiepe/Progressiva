@@ -1,13 +1,26 @@
 import React from "react";
 
 import Truck from "../../imagens/TruckAbout.png";
+import Play from "../../imagens/play.png";
+import imagem1 from "../../imagens/imagem1.png";
+import imagem2 from "../../imagens/imagem2.png";
+import imagem3 from "../../imagens/imagem3.png";
+import imagem4 from "../../imagens/imagem4.png";
 
 import Navbar from "../../components/Navbar";
 import Rodape from "../../components/Rodape";
 import CardTestimonial from "../../components/CardTestimonial";
 import BannerInferior from "../../components/BannerInferior";
 
-import { Banner, TextBanner, TextAbout, Testimonial } from "./styles";
+import {
+  Banner,
+  TextBanner,
+  TextAbout,
+  Testimonial,
+  OurGalery,
+  VideoPlay,
+  PhotoGalery,
+} from "./styles";
 
 function Sobre() {
   return (
@@ -55,11 +68,28 @@ Uma empresa séria que valoriza seus clientes e está sempre disposta a atender 
           text="Em nome da Politec Saúde gostaria de agradecer a todo o time Progressiva, pelos serviços prestados até então é que tenhamos muitos anos mais desta parceria sólida e construtiva. Uma empresa com grandes qualidades, no qual cito como diferencial o atendimento ao cliente,  cumprimento nos prazos de entrega e acompanhamento de entregas/coletas."
         />
         <CardTestimonial
-          name="José Guimarães"
-          text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in
-          et, lectus sit lorem id integer."
+          name="Caio Ferrari"
+          text="A Progressiva tem um serviço diferenciado, oferecendo rápido retorno quando necessário, os funcionários são cordiais e se destaca pela excelência prestada."
+        />
+        <CardTestimonial
+          name="Patrícia Matos"
+          text="Nós da Pensabio, agradecemos a Transportadora Progressiva pela parceria de 5 anos, atendendo e se adequando às nossas necessidades sempre que necessário!"
         />
       </Testimonial>
+
+      <OurGalery>
+        <h4>NOSSA GALERIA</h4>
+        <VideoPlay>
+          <img src={Play} />
+          <h5>link.com.br</h5>
+        </VideoPlay>
+        <PhotoGalery>
+          <img src={imagem1} />
+          <img src={imagem2} />
+          <img src={imagem3} />
+          <img src={imagem4} />
+        </PhotoGalery>
+      </OurGalery>
 
       <BannerInferior />
 
