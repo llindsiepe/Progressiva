@@ -51,9 +51,8 @@ function Sobre() {
 Uma empresa séria que valoriza seus clientes e está sempre disposta a atender as necessidades da Spectrun. Obrigado"
         />
         <CardTestimonial
-          name="José Guimarães"
-          text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in
-          et, lectus sit lorem id integer."
+          name="Guilherme Reis"
+          text="Em nome da Politec Saúde gostaria de agradecer a todo o time Progressiva, pelos serviços prestados até então é que tenhamos muitos anos mais desta parceria sólida e construtiva. Uma empresa com grandes qualidades, no qual cito como diferencial o atendimento ao cliente,  cumprimento nos prazos de entrega e acompanhamento de entregas/coletas."
         />
         <CardTestimonial
           name="José Guimarães"
