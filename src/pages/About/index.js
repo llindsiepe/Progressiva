@@ -81,7 +81,14 @@ Uma empresa séria que valoriza seus clientes e está sempre disposta a atender 
         <h4>NOSSA GALERIA</h4>
         <VideoPlay>
           <img src={Play} />
-          <h5>link.com.br</h5>
+          <h5>
+            <a href="https://www.instagram.com/reel/CeuUyPJgPbJ/?igshid=N2NmMDY0OWE=">
+              Clique e assista |
+            </a>
+            <a href="https://www.instagram.com/p/CdmGzrPOXZ1/?igshid=N2NmMDY0OWE=">
+              | Clique e assista
+            </a>
+          </h5>
         </VideoPlay>
         <PhotoGalery>
           <img src={imagem1} />
