@@ -51,7 +51,7 @@ function Sobre() {
         respeitando suas necessidades e especificidades. Como complemento de
         nossa frota contamos com agregados devidamente cadastrados e
         qualificados pela nossa seguradora. Nossos veículos são equipados de
-        baú, plataforma mecânica, carrinhos hidráulicos, prancha de
+        baú, plataforma elevatória, carrinhos hidráulicos, prancha de
         movimentação, cinta para manuseio em escadas, papel bolhas, filme
         stretch, mantas, entre outros.
       </TextAbout>
