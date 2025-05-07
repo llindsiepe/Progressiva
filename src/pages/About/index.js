@@ -52,9 +52,6 @@ function Sobre() {
         <br />
         Temos parceria com os maiores e melhores agentes de cargas do Brasil,
         autorizados pelo ANAC (Associação Nacional de Carga Aérea) Logística.
-        Nossa empresa está licenciada junto à Anvisa para transportes de
-        equipamentos, correlatos e biológicos no segmento médico e materiais
-        perigosos.
       </TextAbout>
 
       <Testimonial>
@@ -94,7 +91,6 @@ Uma empresa séria que valoriza seus clientes e está sempre disposta a atender 
           <img src={imagem1} />
           <img src={imagem2} />
           <img src={imagem3} />
-          <img src={imagem4} />
         </PhotoGalery>
       </OurGalery>
 

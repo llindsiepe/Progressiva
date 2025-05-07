@@ -79,8 +79,10 @@ export const VideoPlay = styled.div`
 `;
 
 export const PhotoGalery = styled.div`
+  padding-left: 10%;
+
   img {
-    width: 25%;
+    width: 30%;
   }
 
   @media (max-width: 720px) {
@@ -88,6 +90,7 @@ export const PhotoGalery = styled.div`
 
     img {
       width: 100%;
+      padding-left: 0%;
     }
   }
 `;

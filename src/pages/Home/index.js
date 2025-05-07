@@ -75,11 +75,11 @@ transporte."
               <b>Rodoviário</b> em todo território nacional.
             </h5>
           </TextArea>
-          <TextCertificate>
+          {/*<TextCertificate>
             <h1>SOMOS CERTIFICADOS</h1>
             <h5>Sua encomenda está segura conosco.</h5>
             <img width={220} height={60} src={Anvisa} />
-          </TextCertificate>
+          </TextCertificate>*/}
         </TextAboutUs>
         <ImageArea>
           <img src={Brasil} />
